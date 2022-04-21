@@ -1,0 +1,25 @@
+Commands:
+  Help:
+    - "&a==================&bOriginXLvlReward&a=================="
+    - "&6==>&a/oxlr help &b获取帮助 &7oxlr.help"
+    - "&6==>&a/oxlr reward <name> &b兑换一个奖励 &7oxlr.reward.<name>"
+    - "&6==>&a/oxlr settime <player> <key> <set> &b设置一个玩家的兑换次数 &7oxlr.settime"
+    - "&6==>&a/oxlr addtime <player> <key> <set> &b增加一个玩家的兑换次数 &7oxlr.addtime"
+    - "&6==>&a/oxlr seetime <name> &b查看一个玩家的兑换次数 &7oxlr.seetime"
+    - "&6==>&a/oxlr reload <name> &b重载插件 &7oxlr.reload"
+    - "&a==================&bOriginXLvlReward&a=================="
+  SetTime: "&a[&b%prefix%&a] 设置玩家 %Player% %Key%'s 兑换次数为 %Number%"
+  AddTime: "&a[&b%prefix%&a] 设置玩家 %Player% %Key%'s 兑换次数为 %Number%"
+  SeeTime: "&a[&b%prefix%&a] &b玩家 &a%Player% &6%Key%'s&b 兑换次数为 &d%Number%"
+  Reload: "&a[&b%prefix%&a] &b重载成功!"
+Errors:
+  UnknownReward: "&a[&b%prefix%&a] &c未知的奖励!"
+  UnknownTarget: "&a[&b%prefix%&a] &c未知的目标!"
+  UnknownInput: "&a[&b%prefix%&a] &c输入有误!"
+  RewardLimit: "&a[&b%prefix%&a] &c你已经领取过了!"
+  NoPermission: "&a[&b%prefix%&a] &c你没有足够的权限来领取!"
+  OutofLevel: "&a[&b%prefix%&a] &c你的等级太高啦!"
+  LowofLevel: "&a[&b%prefix%&a] &c你的等级还不够哦!"
+
+
+

@@ -1,0 +1,17 @@
+Example1:
+  Permission:
+    - 'example.permission'
+  MinLevel: 10
+  MaxLevel: 20
+  AutoReward: true
+  RewardLimit: 1
+  Rewards:
+    Key1:
+      Condition:
+        - "@player||1 > 999"
+      Function:
+        - "@player||message:Thanks for using OriginXLvlReward"
+        - "@op||command:tell %player_name% You are handsome"
+    Key2:
+      Function:
+        - "@op||command:tell %player_name% I Love you"

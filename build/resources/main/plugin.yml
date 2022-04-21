@@ -1,0 +1,10 @@
+name: OriginXLvlReward
+version: '1.2-SNAPSHOT'
+main: gx.lrd1122.OriginXLvlReward.OriginXLvlReward
+authors: [lrd1122]
+softdepend:
+  - PlaceholderAPI
+commands:
+  OriginXLvlReward:
+    aliases: oxlr
+    usage: /<command>

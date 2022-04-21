@@ -1,0 +1,22 @@
+Commands:
+  Help:
+    - "&a==================&bOriginXLvlReward&a=================="
+    - "&6==>&a/oxlr help &bget the help &7oxlr.help"
+    - "&6==>&a/oxlr reward <name> &bget a reward &7oxlr.reward.<name>"
+    - "&6==>&a/oxlr settime <player> <key> <set> &bset a player reward time &7oxlr.settime"
+    - "&6==>&a/oxlr addtime <name> &badd a player reward time &7oxlr.addtime"
+    - "&6==>&a/oxlr seetime <name> &bsee a player reward time &7oxlr.seetime"
+    - "&6==>&a/oxlr reload <name> &breload the plugin &7oxlr.reload"
+    - "&a==================&bOriginXLvlReward&a=================="
+  SetTime: "&a[&b%prefix%&a] Set %Player% %Key%'s reward time to %Number%"
+  AddTime: "&a[&b%prefix%&a] Add %Player% %Key%'s reward time to %Number%"
+  SeeTime: "&a[&b%prefix%&a] &bPlayer &a%Player% &6%Key%'s&b reward time is &d%Number%"
+  Reload: "&a[&b%prefix%&a] &bDone!"
+Errors:
+  UnknownReward: "&a[&b%prefix%&a] &cUnknown Reward!"
+  UnknownTarget: "&a[&b%prefix%&a] &cUnknown Target!"
+  UnknownInput: "&a[&b%prefix%&a] &cError Input!"
+  RewardLimit: "&a[&b%prefix%&a] &cYou have reward too many times!"
+  NoPermission: "&a[&b%prefix%&a] &cYou don't have permission to reward this!"
+  OutofLevel: "&a[&b%prefix%&a] &cYour level is too high to reward this!"
+  LowofLevel: "&a[&b%prefix%&a] &cYour don't have enough level to reward this!"
